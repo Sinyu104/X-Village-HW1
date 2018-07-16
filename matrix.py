@@ -4,7 +4,6 @@ from copy import deepcopy
 
 
 class Matrix:
-    #m=[]
     def __init__(self, nrows, ncols):
         """Construct a (nrows X ncols) matrix"""
         self.m = []
